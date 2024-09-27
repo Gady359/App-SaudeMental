@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #6d6d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #d4f0f5;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.exit-btn, .options-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.options-btn, .exit-btn, img {
+    width: 25px;
+    height: 25px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.quote {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+.meditation-section {
+    margin-bottom: 30px;
+}
+
+.meditation-section h2 {
+    font-size: 18px;
+    color: #555555;
+}
+
+.meditation-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.play-btn {
+    background-color: #5e4caf;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    background-color: #342672;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bdf1f3;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.option-btn img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.option-btn:hover {
+    background-color: #7be7eb;
+}
